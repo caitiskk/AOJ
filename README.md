@@ -1,4 +1,4 @@
-chiari-multimodal/
+```chiari-multimodal/
 ├── README.md    requirements.txt
 ├── configs/
 │   └── default.yaml（+ 消融变体若干）
@@ -43,7 +43,7 @@ chiari-multimodal/
         ├── tables/        # metrics.csv（论文 Table 直接来源）
         ├── cams/
         └── logs/
-
+```
 
 ipynb 可以直接运行得到结果 # 暂时论文的结果又notebook提供 
 
