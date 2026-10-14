@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]        # 提到 68：换版本号会强制 uv 重建构建环境
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chiari"
+version = "0.1.0"                    # ← 本次报错缺的就是这一行
+requires-python = ">=3.10"
+dependencies = []                    # torch/cv2 等手工装的不放这里，避免 uv 动你的 GPU torch
+
+[tool.setuptools.packages.find]
+where = ["src"]

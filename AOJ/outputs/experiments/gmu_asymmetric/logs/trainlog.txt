@@ -1,0 +1,351 @@
+============================================================
+MedicalGMU (Embedding Clinical + X-ray) Training
+============================================================
+总病人: 215
+
+
+--- [Run 5] 开始训练第 1 折 ---
+Train: 172, Val: 43
+215
+[Dataset] 病人: 172, 影像: 2533, 正类(III型): 720
+215
+[Dataset] 病人: 43, 影像: 558, 正类(III型): 175
+正在加载权重文件: /media/sdc1/25yhlu/proj/AOJ/weights/resnet18.pth
+发现权重被包裹在 'model' 中，正在拆包...
+ 开始匹配 (文件包含 122 个键)...
+权重加载完成！成功匹配: 120
+/tmp/ipykernel_447776/4100045582.py:119: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(path, map_location='cpu')
+/media/sdc1/25yhlu/miniconda3/envs/AOJ/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+[Run 5 | Fold 1 | Ep 0] AUC: 0.840 | Acc: 0.640 | Sen: 0.935 | Spe: 0.473
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_1_medicalgmu_best.pt
+[Run 5 | Fold 1 | Ep 1] AUC: 0.839 | Acc: 0.756 | Sen: 0.871 | Spe: 0.691
+[Run 5 | Fold 1 | Ep 2] AUC: 0.848 | Acc: 0.756 | Sen: 0.935 | Spe: 0.655
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_1_medicalgmu_best.pt
+[Run 5 | Fold 1 | Ep 3] AUC: 0.857 | Acc: 0.756 | Sen: 0.839 | Spe: 0.709
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_1_medicalgmu_best.pt
+[Run 5 | Fold 1 | Ep 4] AUC: 0.884 | Acc: 0.791 | Sen: 0.871 | Spe: 0.745
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_1_medicalgmu_best.pt
+[Run 5 | Fold 1 | Ep 5] AUC: 0.869 | Acc: 0.791 | Sen: 0.871 | Spe: 0.745
+[Run 5 | Fold 1 | Ep 6] AUC: 0.877 | Acc: 0.779 | Sen: 0.935 | Spe: 0.691
+[Run 5 | Fold 1 | Ep 7] AUC: 0.912 | Acc: 0.849 | Sen: 0.871 | Spe: 0.836
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_1_medicalgmu_best.pt
+[Run 5 | Fold 1 | Ep 8] AUC: 0.886 | Acc: 0.826 | Sen: 0.839 | Spe: 0.818
+[Run 5 | Fold 1 | Ep 9] AUC: 0.906 | Acc: 0.849 | Sen: 0.903 | Spe: 0.818
+[Run 5 | Fold 1 | Ep 10] AUC: 0.863 | Acc: 0.814 | Sen: 0.871 | Spe: 0.782
+[Run 5 | Fold 1 | Ep 11] AUC: 0.860 | Acc: 0.756 | Sen: 0.839 | Spe: 0.709
+[Run 5 | Fold 1 | Ep 12] AUC: 0.898 | Acc: 0.895 | Sen: 0.806 | Spe: 0.945
+[Run 5 | Fold 1 | Ep 13] AUC: 0.907 | Acc: 0.895 | Sen: 0.806 | Spe: 0.945
+[Run 5 | Fold 1 | Ep 14] AUC: 0.916 | Acc: 0.826 | Sen: 0.871 | Spe: 0.800
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_1_medicalgmu_best.pt
+[Run 5 | Fold 1 | Ep 15] AUC: 0.914 | Acc: 0.779 | Sen: 0.935 | Spe: 0.691
+[Run 5 | Fold 1 | Ep 16] AUC: 0.903 | Acc: 0.826 | Sen: 0.839 | Spe: 0.818
+[Run 5 | Fold 1 | Ep 17] AUC: 0.923 | Acc: 0.849 | Sen: 0.871 | Spe: 0.836
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_1_medicalgmu_best.pt
+[Run 5 | Fold 1 | Ep 18] AUC: 0.888 | Acc: 0.849 | Sen: 0.839 | Spe: 0.855
+[Run 5 | Fold 1 | Ep 19] AUC: 0.919 | Acc: 0.849 | Sen: 0.871 | Spe: 0.836
+[Run 5 | Fold 1 | Ep 20] AUC: 0.901 | Acc: 0.826 | Sen: 0.871 | Spe: 0.800
+[Run 5 | Fold 1 | Ep 21] AUC: 0.898 | Acc: 0.837 | Sen: 0.871 | Spe: 0.818
+[Run 5 | Fold 1 | Ep 22] AUC: 0.898 | Acc: 0.837 | Sen: 0.871 | Spe: 0.818
+[Run 5 | Fold 1 | Ep 23] AUC: 0.904 | Acc: 0.826 | Sen: 0.871 | Spe: 0.800
+[Run 5 | Fold 1 | Ep 24] AUC: 0.890 | Acc: 0.802 | Sen: 0.839 | Spe: 0.782
+[Run 5 | Fold 1 | Ep 25] AUC: 0.890 | Acc: 0.814 | Sen: 0.839 | Spe: 0.800
+[Run 5 | Fold 1 | Ep 26] AUC: 0.908 | Acc: 0.860 | Sen: 0.871 | Spe: 0.855
+[Run 5 | Fold 1 | Ep 27] AUC: 0.916 | Acc: 0.826 | Sen: 0.839 | Spe: 0.818
+[Run 5 | Fold 1 | Ep 28] AUC: 0.896 | Acc: 0.860 | Sen: 0.839 | Spe: 0.873
+[Run 5 | Fold 1 | Ep 29] AUC: 0.916 | Acc: 0.884 | Sen: 0.839 | Spe: 0.909
+[Run 5 | Fold 1 | Ep 30] AUC: 0.917 | Acc: 0.814 | Sen: 0.871 | Spe: 0.782
+[Run 5 | Fold 1 | Ep 31] AUC: 0.948 | Acc: 0.860 | Sen: 0.903 | Spe: 0.836
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_1_medicalgmu_best.pt
+[Run 5 | Fold 1 | Ep 32] AUC: 0.929 | Acc: 0.837 | Sen: 0.871 | Spe: 0.818
+[Run 5 | Fold 1 | Ep 33] AUC: 0.927 | Acc: 0.826 | Sen: 0.903 | Spe: 0.782
+[Run 5 | Fold 1 | Ep 34] AUC: 0.946 | Acc: 0.849 | Sen: 0.935 | Spe: 0.800
+[Run 5 | Fold 1 | Ep 35] AUC: 0.953 | Acc: 0.849 | Sen: 0.968 | Spe: 0.782
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_1_medicalgmu_best.pt
+[Run 5 | Fold 1 | Ep 36] AUC: 0.947 | Acc: 0.860 | Sen: 0.903 | Spe: 0.836
+[Run 5 | Fold 1 | Ep 37] AUC: 0.928 | Acc: 0.884 | Sen: 0.871 | Spe: 0.891
+[Run 5 | Fold 1 | Ep 38] AUC: 0.935 | Acc: 0.884 | Sen: 0.871 | Spe: 0.891
+[Run 5 | Fold 1 | Ep 39] AUC: 0.927 | Acc: 0.895 | Sen: 0.839 | Spe: 0.927
+[Run 5 | Fold 1 | Ep 40] AUC: 0.944 | Acc: 0.849 | Sen: 0.935 | Spe: 0.800
+[Run 5 | Fold 1 | Ep 41] AUC: 0.945 | Acc: 0.895 | Sen: 0.903 | Spe: 0.891
+[Run 5 | Fold 1 | Ep 42] AUC: 0.928 | Acc: 0.849 | Sen: 0.871 | Spe: 0.836
+[Run 5 | Fold 1 | Ep 43] AUC: 0.917 | Acc: 0.872 | Sen: 0.839 | Spe: 0.891
+[Run 5 | Fold 1 | Ep 44] AUC: 0.947 | Acc: 0.872 | Sen: 0.935 | Spe: 0.836
+[Run 5 | Fold 1 | Ep 45] AUC: 0.952 | Acc: 0.849 | Sen: 0.903 | Spe: 0.818
+[Run 5 | Fold 1 | Ep 46] AUC: 0.935 | Acc: 0.860 | Sen: 0.871 | Spe: 0.855
+[Run 5 | Fold 1 | Ep 47] AUC: 0.922 | Acc: 0.837 | Sen: 0.903 | Spe: 0.800
+[Run 5 | Fold 1 | Ep 48] AUC: 0.944 | Acc: 0.860 | Sen: 0.935 | Spe: 0.818
+[Run 5 | Fold 1 | Ep 49] AUC: 0.940 | Acc: 0.849 | Sen: 0.903 | Spe: 0.818
+[Run 5 | Fold 1 | Ep 50] AUC: 0.940 | Acc: 0.826 | Sen: 0.903 | Spe: 0.782
+早停于 Epoch 50 (Best: Epoch 35, AUC=0.953)
+
+--- [Run 5] 开始训练第 2 折 ---
+Train: 172, Val: 43
+215
+[Dataset] 病人: 172, 影像: 2456, 正类(III型): 774
+215
+[Dataset] 病人: 43, 影像: 635, 正类(III型): 121
+正在加载权重文件: /media/sdc1/25yhlu/proj/AOJ/weights/resnet18.pth
+发现权重被包裹在 'model' 中，正在拆包...
+ 开始匹配 (文件包含 122 个键)...
+权重加载完成！成功匹配: 120
+/tmp/ipykernel_447776/4100045582.py:119: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(path, map_location='cpu')
+/media/sdc1/25yhlu/miniconda3/envs/AOJ/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+[Run 5 | Fold 2 | Ep 0] AUC: 0.869 | Acc: 0.558 | Sen: 0.909 | Spe: 0.438
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_2_medicalgmu_best.pt
+[Run 5 | Fold 2 | Ep 1] AUC: 0.902 | Acc: 0.767 | Sen: 0.818 | Spe: 0.750
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_2_medicalgmu_best.pt
+[Run 5 | Fold 2 | Ep 2] AUC: 0.905 | Acc: 0.674 | Sen: 0.955 | Spe: 0.578
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_2_medicalgmu_best.pt
+[Run 5 | Fold 2 | Ep 3] AUC: 0.909 | Acc: 0.814 | Sen: 0.909 | Spe: 0.781
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_2_medicalgmu_best.pt
+[Run 5 | Fold 2 | Ep 4] AUC: 0.893 | Acc: 0.802 | Sen: 0.864 | Spe: 0.781
+[Run 5 | Fold 2 | Ep 5] AUC: 0.913 | Acc: 0.779 | Sen: 0.955 | Spe: 0.719
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_2_medicalgmu_best.pt
+[Run 5 | Fold 2 | Ep 6] AUC: 0.918 | Acc: 0.733 | Sen: 0.909 | Spe: 0.672
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_2_medicalgmu_best.pt
+[Run 5 | Fold 2 | Ep 7] AUC: 0.923 | Acc: 0.837 | Sen: 0.909 | Spe: 0.812
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_2_medicalgmu_best.pt
+[Run 5 | Fold 2 | Ep 8] AUC: 0.919 | Acc: 0.860 | Sen: 0.909 | Spe: 0.844
+[Run 5 | Fold 2 | Ep 9] AUC: 0.924 | Acc: 0.826 | Sen: 0.909 | Spe: 0.797
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_2_medicalgmu_best.pt
+[Run 5 | Fold 2 | Ep 10] AUC: 0.913 | Acc: 0.791 | Sen: 0.909 | Spe: 0.750
+[Run 5 | Fold 2 | Ep 11] AUC: 0.925 | Acc: 0.826 | Sen: 0.955 | Spe: 0.781
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_2_medicalgmu_best.pt
+[Run 5 | Fold 2 | Ep 12] AUC: 0.915 | Acc: 0.860 | Sen: 0.909 | Spe: 0.844
+[Run 5 | Fold 2 | Ep 13] AUC: 0.938 | Acc: 0.884 | Sen: 0.955 | Spe: 0.859
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_2_medicalgmu_best.pt
+[Run 5 | Fold 2 | Ep 14] AUC: 0.940 | Acc: 0.814 | Sen: 0.955 | Spe: 0.766
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_2_medicalgmu_best.pt
+[Run 5 | Fold 2 | Ep 15] AUC: 0.927 | Acc: 0.884 | Sen: 0.955 | Spe: 0.859
+[Run 5 | Fold 2 | Ep 16] AUC: 0.928 | Acc: 0.814 | Sen: 0.955 | Spe: 0.766
+[Run 5 | Fold 2 | Ep 17] AUC: 0.947 | Acc: 0.872 | Sen: 0.955 | Spe: 0.844
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_2_medicalgmu_best.pt
+[Run 5 | Fold 2 | Ep 18] AUC: 0.940 | Acc: 0.779 | Sen: 0.955 | Spe: 0.719
+[Run 5 | Fold 2 | Ep 19] AUC: 0.942 | Acc: 0.826 | Sen: 0.955 | Spe: 0.781
+[Run 5 | Fold 2 | Ep 20] AUC: 0.951 | Acc: 0.802 | Sen: 0.955 | Spe: 0.750
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_2_medicalgmu_best.pt
+[Run 5 | Fold 2 | Ep 21] AUC: 0.940 | Acc: 0.767 | Sen: 0.955 | Spe: 0.703
+[Run 5 | Fold 2 | Ep 22] AUC: 0.928 | Acc: 0.826 | Sen: 0.909 | Spe: 0.797
+[Run 5 | Fold 2 | Ep 23] AUC: 0.921 | Acc: 0.767 | Sen: 0.955 | Spe: 0.703
+[Run 5 | Fold 2 | Ep 24] AUC: 0.905 | Acc: 0.814 | Sen: 0.818 | Spe: 0.812
+[Run 5 | Fold 2 | Ep 25] AUC: 0.943 | Acc: 0.779 | Sen: 0.909 | Spe: 0.734
+[Run 5 | Fold 2 | Ep 26] AUC: 0.908 | Acc: 0.826 | Sen: 0.864 | Spe: 0.812
+[Run 5 | Fold 2 | Ep 27] AUC: 0.938 | Acc: 0.814 | Sen: 0.909 | Spe: 0.781
+[Run 5 | Fold 2 | Ep 28] AUC: 0.911 | Acc: 0.837 | Sen: 0.909 | Spe: 0.812
+[Run 5 | Fold 2 | Ep 29] AUC: 0.940 | Acc: 0.791 | Sen: 0.955 | Spe: 0.734
+[Run 5 | Fold 2 | Ep 30] AUC: 0.923 | Acc: 0.791 | Sen: 0.864 | Spe: 0.766
+[Run 5 | Fold 2 | Ep 31] AUC: 0.919 | Acc: 0.837 | Sen: 0.909 | Spe: 0.812
+[Run 5 | Fold 2 | Ep 32] AUC: 0.937 | Acc: 0.860 | Sen: 0.955 | Spe: 0.828
+[Run 5 | Fold 2 | Ep 33] AUC: 0.923 | Acc: 0.849 | Sen: 0.864 | Spe: 0.844
+[Run 5 | Fold 2 | Ep 34] AUC: 0.923 | Acc: 0.814 | Sen: 0.909 | Spe: 0.781
+[Run 5 | Fold 2 | Ep 35] AUC: 0.925 | Acc: 0.814 | Sen: 0.955 | Spe: 0.766
+早停于 Epoch 35 (Best: Epoch 20, AUC=0.951)
+
+--- [Run 5] 开始训练第 3 折 ---
+Train: 172, Val: 43
+215
+[Dataset] 病人: 172, 影像: 2477, 正类(III型): 692
+215
+[Dataset] 病人: 43, 影像: 614, 正类(III型): 203
+正在加载权重文件: /media/sdc1/25yhlu/proj/AOJ/weights/resnet18.pth
+发现权重被包裹在 'model' 中，正在拆包...
+ 开始匹配 (文件包含 122 个键)...
+权重加载完成！成功匹配: 120
+/tmp/ipykernel_447776/4100045582.py:119: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(path, map_location='cpu')
+/media/sdc1/25yhlu/miniconda3/envs/AOJ/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+[Run 5 | Fold 3 | Ep 0] AUC: 0.840 | Acc: 0.686 | Sen: 0.900 | Spe: 0.571
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_3_medicalgmu_best.pt
+[Run 5 | Fold 3 | Ep 1] AUC: 0.836 | Acc: 0.698 | Sen: 0.867 | Spe: 0.607
+[Run 5 | Fold 3 | Ep 2] AUC: 0.838 | Acc: 0.814 | Sen: 0.800 | Spe: 0.821
+[Run 5 | Fold 3 | Ep 3] AUC: 0.886 | Acc: 0.721 | Sen: 0.900 | Spe: 0.625
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_3_medicalgmu_best.pt
+[Run 5 | Fold 3 | Ep 4] AUC: 0.846 | Acc: 0.744 | Sen: 0.833 | Spe: 0.696
+[Run 5 | Fold 3 | Ep 5] AUC: 0.868 | Acc: 0.674 | Sen: 0.833 | Spe: 0.589
+[Run 5 | Fold 3 | Ep 6] AUC: 0.863 | Acc: 0.767 | Sen: 0.800 | Spe: 0.750
+[Run 5 | Fold 3 | Ep 7] AUC: 0.885 | Acc: 0.849 | Sen: 0.867 | Spe: 0.839
+[Run 5 | Fold 3 | Ep 8] AUC: 0.843 | Acc: 0.779 | Sen: 0.700 | Spe: 0.821
+[Run 5 | Fold 3 | Ep 9] AUC: 0.838 | Acc: 0.767 | Sen: 0.800 | Spe: 0.750
+[Run 5 | Fold 3 | Ep 10] AUC: 0.883 | Acc: 0.791 | Sen: 0.867 | Spe: 0.750
+[Run 5 | Fold 3 | Ep 11] AUC: 0.855 | Acc: 0.767 | Sen: 0.833 | Spe: 0.732
+[Run 5 | Fold 3 | Ep 12] AUC: 0.899 | Acc: 0.791 | Sen: 0.867 | Spe: 0.750
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_3_medicalgmu_best.pt
+[Run 5 | Fold 3 | Ep 13] AUC: 0.888 | Acc: 0.802 | Sen: 0.833 | Spe: 0.786
+[Run 5 | Fold 3 | Ep 14] AUC: 0.863 | Acc: 0.791 | Sen: 0.767 | Spe: 0.804
+[Run 5 | Fold 3 | Ep 15] AUC: 0.862 | Acc: 0.686 | Sen: 0.833 | Spe: 0.607
+[Run 5 | Fold 3 | Ep 16] AUC: 0.873 | Acc: 0.767 | Sen: 0.833 | Spe: 0.732
+[Run 5 | Fold 3 | Ep 17] AUC: 0.856 | Acc: 0.756 | Sen: 0.833 | Spe: 0.714
+[Run 5 | Fold 3 | Ep 18] AUC: 0.855 | Acc: 0.779 | Sen: 0.700 | Spe: 0.821
+[Run 5 | Fold 3 | Ep 19] AUC: 0.867 | Acc: 0.767 | Sen: 0.767 | Spe: 0.768
+[Run 5 | Fold 3 | Ep 20] AUC: 0.845 | Acc: 0.767 | Sen: 0.767 | Spe: 0.768
+[Run 5 | Fold 3 | Ep 21] AUC: 0.899 | Acc: 0.767 | Sen: 0.733 | Spe: 0.786
+[Run 5 | Fold 3 | Ep 22] AUC: 0.872 | Acc: 0.837 | Sen: 0.767 | Spe: 0.875
+[Run 5 | Fold 3 | Ep 23] AUC: 0.904 | Acc: 0.779 | Sen: 0.833 | Spe: 0.750
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_3_medicalgmu_best.pt
+[Run 5 | Fold 3 | Ep 24] AUC: 0.883 | Acc: 0.802 | Sen: 0.767 | Spe: 0.821
+[Run 5 | Fold 3 | Ep 25] AUC: 0.910 | Acc: 0.767 | Sen: 0.900 | Spe: 0.696
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_3_medicalgmu_best.pt
+[Run 5 | Fold 3 | Ep 26] AUC: 0.938 | Acc: 0.802 | Sen: 0.933 | Spe: 0.732
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_3_medicalgmu_best.pt
+[Run 5 | Fold 3 | Ep 27] AUC: 0.886 | Acc: 0.767 | Sen: 0.833 | Spe: 0.732
+[Run 5 | Fold 3 | Ep 28] AUC: 0.895 | Acc: 0.802 | Sen: 0.800 | Spe: 0.804
+[Run 5 | Fold 3 | Ep 29] AUC: 0.896 | Acc: 0.814 | Sen: 0.833 | Spe: 0.804
+[Run 5 | Fold 3 | Ep 30] AUC: 0.901 | Acc: 0.733 | Sen: 0.900 | Spe: 0.643
+[Run 5 | Fold 3 | Ep 31] AUC: 0.883 | Acc: 0.756 | Sen: 0.833 | Spe: 0.714
+[Run 5 | Fold 3 | Ep 32] AUC: 0.907 | Acc: 0.721 | Sen: 0.900 | Spe: 0.625
+[Run 5 | Fold 3 | Ep 33] AUC: 0.903 | Acc: 0.802 | Sen: 0.800 | Spe: 0.804
+[Run 5 | Fold 3 | Ep 34] AUC: 0.938 | Acc: 0.709 | Sen: 0.967 | Spe: 0.571
+[Run 5 | Fold 3 | Ep 35] AUC: 0.883 | Acc: 0.791 | Sen: 0.767 | Spe: 0.804
+[Run 5 | Fold 3 | Ep 36] AUC: 0.880 | Acc: 0.779 | Sen: 0.767 | Spe: 0.786
+[Run 5 | Fold 3 | Ep 37] AUC: 0.940 | Acc: 0.802 | Sen: 0.900 | Spe: 0.750
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_3_medicalgmu_best.pt
+[Run 5 | Fold 3 | Ep 38] AUC: 0.950 | Acc: 0.826 | Sen: 1.000 | Spe: 0.732
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_3_medicalgmu_best.pt
+[Run 5 | Fold 3 | Ep 39] AUC: 0.916 | Acc: 0.814 | Sen: 0.867 | Spe: 0.786
+[Run 5 | Fold 3 | Ep 40] AUC: 0.944 | Acc: 0.779 | Sen: 0.933 | Spe: 0.696
+[Run 5 | Fold 3 | Ep 41] AUC: 0.942 | Acc: 0.826 | Sen: 0.967 | Spe: 0.750
+[Run 5 | Fold 3 | Ep 42] AUC: 0.945 | Acc: 0.802 | Sen: 0.900 | Spe: 0.750
+[Run 5 | Fold 3 | Ep 43] AUC: 0.927 | Acc: 0.744 | Sen: 0.933 | Spe: 0.643
+[Run 5 | Fold 3 | Ep 44] AUC: 0.951 | Acc: 0.791 | Sen: 0.933 | Spe: 0.714
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_3_medicalgmu_best.pt
+[Run 5 | Fold 3 | Ep 45] AUC: 0.930 | Acc: 0.791 | Sen: 0.900 | Spe: 0.732
+[Run 5 | Fold 3 | Ep 46] AUC: 0.932 | Acc: 0.814 | Sen: 0.833 | Spe: 0.804
+[Run 5 | Fold 3 | Ep 47] AUC: 0.926 | Acc: 0.779 | Sen: 0.867 | Spe: 0.732
+[Run 5 | Fold 3 | Ep 48] AUC: 0.886 | Acc: 0.779 | Sen: 0.867 | Spe: 0.732
+[Run 5 | Fold 3 | Ep 49] AUC: 0.905 | Acc: 0.814 | Sen: 0.900 | Spe: 0.768
+[Run 5 | Fold 3 | Ep 50] AUC: 0.923 | Acc: 0.756 | Sen: 0.900 | Spe: 0.679
+[Run 5 | Fold 3 | Ep 51] AUC: 0.908 | Acc: 0.767 | Sen: 0.833 | Spe: 0.732
+[Run 5 | Fold 3 | Ep 52] AUC: 0.893 | Acc: 0.733 | Sen: 0.900 | Spe: 0.643
+[Run 5 | Fold 3 | Ep 53] AUC: 0.929 | Acc: 0.791 | Sen: 0.900 | Spe: 0.732
+[Run 5 | Fold 3 | Ep 54] AUC: 0.948 | Acc: 0.814 | Sen: 0.933 | Spe: 0.750
+[Run 5 | Fold 3 | Ep 55] AUC: 0.936 | Acc: 0.802 | Sen: 0.900 | Spe: 0.750
+[Run 5 | Fold 3 | Ep 56] AUC: 0.936 | Acc: 0.826 | Sen: 0.933 | Spe: 0.768
+[Run 5 | Fold 3 | Ep 57] AUC: 0.934 | Acc: 0.814 | Sen: 0.900 | Spe: 0.768
+[Run 5 | Fold 3 | Ep 58] AUC: 0.937 | Acc: 0.779 | Sen: 0.967 | Spe: 0.679
+[Run 5 | Fold 3 | Ep 59] AUC: 0.930 | Acc: 0.791 | Sen: 0.900 | Spe: 0.732
+早停于 Epoch 59 (Best: Epoch 44, AUC=0.951)
+
+--- [Run 5] 开始训练第 4 折 ---
+Train: 172, Val: 43
+215
+[Dataset] 病人: 172, 影像: 2387, 正类(III型): 677
+215
+[Dataset] 病人: 43, 影像: 704, 正类(III型): 218
+正在加载权重文件: /media/sdc1/25yhlu/proj/AOJ/weights/resnet18.pth
+发现权重被包裹在 'model' 中，正在拆包...
+ 开始匹配 (文件包含 122 个键)...
+权重加载完成！成功匹配: 120
+/tmp/ipykernel_447776/4100045582.py:119: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(path, map_location='cpu')
+/media/sdc1/25yhlu/miniconda3/envs/AOJ/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+[Run 5 | Fold 4 | Ep 0] AUC: 0.898 | Acc: 0.674 | Sen: 0.913 | Spe: 0.587
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_4_medicalgmu_best.pt
+[Run 5 | Fold 4 | Ep 1] AUC: 0.914 | Acc: 0.779 | Sen: 0.913 | Spe: 0.730
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_4_medicalgmu_best.pt
+[Run 5 | Fold 4 | Ep 2] AUC: 0.823 | Acc: 0.744 | Sen: 0.783 | Spe: 0.730
+[Run 5 | Fold 4 | Ep 3] AUC: 0.941 | Acc: 0.791 | Sen: 0.957 | Spe: 0.730
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_4_medicalgmu_best.pt
+[Run 5 | Fold 4 | Ep 4] AUC: 0.864 | Acc: 0.826 | Sen: 0.652 | Spe: 0.889
+[Run 5 | Fold 4 | Ep 5] AUC: 0.817 | Acc: 0.779 | Sen: 0.783 | Spe: 0.778
+[Run 5 | Fold 4 | Ep 6] AUC: 0.902 | Acc: 0.860 | Sen: 0.739 | Spe: 0.905
+[Run 5 | Fold 4 | Ep 7] AUC: 0.893 | Acc: 0.826 | Sen: 0.696 | Spe: 0.873
+[Run 5 | Fold 4 | Ep 8] AUC: 0.961 | Acc: 0.849 | Sen: 0.913 | Spe: 0.825
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_4_medicalgmu_best.pt
+[Run 5 | Fold 4 | Ep 9] AUC: 0.861 | Acc: 0.802 | Sen: 0.739 | Spe: 0.825
+[Run 5 | Fold 4 | Ep 10] AUC: 0.926 | Acc: 0.849 | Sen: 0.783 | Spe: 0.873
+[Run 5 | Fold 4 | Ep 11] AUC: 0.900 | Acc: 0.860 | Sen: 0.652 | Spe: 0.937
+[Run 5 | Fold 4 | Ep 12] AUC: 0.884 | Acc: 0.849 | Sen: 0.696 | Spe: 0.905
+[Run 5 | Fold 4 | Ep 13] AUC: 0.906 | Acc: 0.849 | Sen: 0.783 | Spe: 0.873
+[Run 5 | Fold 4 | Ep 14] AUC: 0.928 | Acc: 0.907 | Sen: 0.826 | Spe: 0.937
+[Run 5 | Fold 4 | Ep 15] AUC: 0.911 | Acc: 0.849 | Sen: 0.739 | Spe: 0.889
+[Run 5 | Fold 4 | Ep 16] AUC: 0.854 | Acc: 0.802 | Sen: 0.783 | Spe: 0.810
+[Run 5 | Fold 4 | Ep 17] AUC: 0.894 | Acc: 0.826 | Sen: 0.739 | Spe: 0.857
+[Run 5 | Fold 4 | Ep 18] AUC: 0.847 | Acc: 0.802 | Sen: 0.783 | Spe: 0.810
+[Run 5 | Fold 4 | Ep 19] AUC: 0.890 | Acc: 0.802 | Sen: 0.565 | Spe: 0.889
+[Run 5 | Fold 4 | Ep 20] AUC: 0.895 | Acc: 0.849 | Sen: 0.652 | Spe: 0.921
+[Run 5 | Fold 4 | Ep 21] AUC: 0.861 | Acc: 0.814 | Sen: 0.696 | Spe: 0.857
+[Run 5 | Fold 4 | Ep 22] AUC: 0.861 | Acc: 0.826 | Sen: 0.565 | Spe: 0.921
+[Run 5 | Fold 4 | Ep 23] AUC: 0.865 | Acc: 0.814 | Sen: 0.696 | Spe: 0.857
+早停于 Epoch 23 (Best: Epoch 8, AUC=0.961)
+
+--- [Run 5] 开始训练第 5 折 ---
+Train: 172, Val: 43
+215
+[Dataset] 病人: 172, 影像: 2511, 正类(III型): 717
+215
+[Dataset] 病人: 43, 影像: 580, 正类(III型): 178
+正在加载权重文件: /media/sdc1/25yhlu/proj/AOJ/weights/resnet18.pth
+发现权重被包裹在 'model' 中，正在拆包...
+ 开始匹配 (文件包含 122 个键)...
+权重加载完成！成功匹配: 120
+/tmp/ipykernel_447776/4100045582.py:119: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(path, map_location='cpu')
+/media/sdc1/25yhlu/miniconda3/envs/AOJ/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+[Run 5 | Fold 5 | Ep 0] AUC: 0.734 | Acc: 0.674 | Sen: 0.621 | Spe: 0.702
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_5_medicalgmu_best.pt
+[Run 5 | Fold 5 | Ep 1] AUC: 0.785 | Acc: 0.709 | Sen: 0.759 | Spe: 0.684
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_5_medicalgmu_best.pt
+[Run 5 | Fold 5 | Ep 2] AUC: 0.771 | Acc: 0.721 | Sen: 0.621 | Spe: 0.772
+[Run 5 | Fold 5 | Ep 3] AUC: 0.824 | Acc: 0.733 | Sen: 0.690 | Spe: 0.754
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_5_medicalgmu_best.pt
+[Run 5 | Fold 5 | Ep 4] AUC: 0.802 | Acc: 0.744 | Sen: 0.621 | Spe: 0.807
+[Run 5 | Fold 5 | Ep 5] AUC: 0.821 | Acc: 0.826 | Sen: 0.621 | Spe: 0.930
+[Run 5 | Fold 5 | Ep 6] AUC: 0.878 | Acc: 0.767 | Sen: 0.793 | Spe: 0.754
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_5_medicalgmu_best.pt
+[Run 5 | Fold 5 | Ep 7] AUC: 0.853 | Acc: 0.756 | Sen: 0.655 | Spe: 0.807
+[Run 5 | Fold 5 | Ep 8] AUC: 0.849 | Acc: 0.756 | Sen: 0.621 | Spe: 0.825
+[Run 5 | Fold 5 | Ep 9] AUC: 0.879 | Acc: 0.779 | Sen: 0.724 | Spe: 0.807
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_5_medicalgmu_best.pt
+[Run 5 | Fold 5 | Ep 10] AUC: 0.880 | Acc: 0.814 | Sen: 0.586 | Spe: 0.930
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_5_medicalgmu_best.pt
+[Run 5 | Fold 5 | Ep 11] AUC: 0.867 | Acc: 0.756 | Sen: 0.759 | Spe: 0.754
+[Run 5 | Fold 5 | Ep 12] AUC: 0.863 | Acc: 0.802 | Sen: 0.724 | Spe: 0.842
+[Run 5 | Fold 5 | Ep 13] AUC: 0.849 | Acc: 0.779 | Sen: 0.690 | Spe: 0.825
+[Run 5 | Fold 5 | Ep 14] AUC: 0.859 | Acc: 0.767 | Sen: 0.552 | Spe: 0.877
+[Run 5 | Fold 5 | Ep 15] AUC: 0.891 | Acc: 0.814 | Sen: 0.690 | Spe: 0.877
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_5_medicalgmu_best.pt
+[Run 5 | Fold 5 | Ep 16] AUC: 0.884 | Acc: 0.779 | Sen: 0.690 | Spe: 0.825
+[Run 5 | Fold 5 | Ep 17] AUC: 0.917 | Acc: 0.826 | Sen: 0.828 | Spe: 0.825
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_5_medicalgmu_best.pt
+[Run 5 | Fold 5 | Ep 18] AUC: 0.880 | Acc: 0.814 | Sen: 0.759 | Spe: 0.842
+[Run 5 | Fold 5 | Ep 19] AUC: 0.917 | Acc: 0.814 | Sen: 0.759 | Spe: 0.842
+[Run 5 | Fold 5 | Ep 20] AUC: 0.894 | Acc: 0.756 | Sen: 0.690 | Spe: 0.789
+[Run 5 | Fold 5 | Ep 21] AUC: 0.882 | Acc: 0.814 | Sen: 0.793 | Spe: 0.825
+[Run 5 | Fold 5 | Ep 22] AUC: 0.913 | Acc: 0.814 | Sen: 0.724 | Spe: 0.860
+[Run 5 | Fold 5 | Ep 23] AUC: 0.888 | Acc: 0.791 | Sen: 0.793 | Spe: 0.789
+[Run 5 | Fold 5 | Ep 24] AUC: 0.913 | Acc: 0.802 | Sen: 0.690 | Spe: 0.860
+[Run 5 | Fold 5 | Ep 25] AUC: 0.923 | Acc: 0.837 | Sen: 0.828 | Spe: 0.842
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_5_medicalgmu_best.pt
+[Run 5 | Fold 5 | Ep 26] AUC: 0.906 | Acc: 0.779 | Sen: 0.793 | Spe: 0.772
+[Run 5 | Fold 5 | Ep 27] AUC: 0.919 | Acc: 0.837 | Sen: 0.862 | Spe: 0.825
+[Run 5 | Fold 5 | Ep 28] AUC: 0.896 | Acc: 0.791 | Sen: 0.759 | Spe: 0.807
+[Run 5 | Fold 5 | Ep 29] AUC: 0.920 | Acc: 0.826 | Sen: 0.690 | Spe: 0.895
+[Run 5 | Fold 5 | Ep 30] AUC: 0.931 | Acc: 0.860 | Sen: 0.862 | Spe: 0.860
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_5_medicalgmu_best.pt
+[Run 5 | Fold 5 | Ep 31] AUC: 0.952 | Acc: 0.884 | Sen: 0.862 | Spe: 0.895
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_5_medicalgmu_best.pt
+[Run 5 | Fold 5 | Ep 32] AUC: 0.953 | Acc: 0.837 | Sen: 0.931 | Spe: 0.789
+  >>> Saved best model to: ./age/MedGMU_checkpoints18weighted/run_5/fold_5_medicalgmu_best.pt
+[Run 5 | Fold 5 | Ep 33] AUC: 0.913 | Acc: 0.826 | Sen: 0.793 | Spe: 0.842
+[Run 5 | Fold 5 | Ep 34] AUC: 0.936 | Acc: 0.872 | Sen: 0.897 | Spe: 0.860
+[Run 5 | Fold 5 | Ep 35] AUC: 0.930 | Acc: 0.814 | Sen: 0.793 | Spe: 0.825
+[Run 5 | Fold 5 | Ep 36] AUC: 0.935 | Acc: 0.860 | Sen: 0.655 | Spe: 0.965
+[Run 5 | Fold 5 | Ep 37] AUC: 0.949 | Acc: 0.849 | Sen: 0.828 | Spe: 0.860
+[Run 5 | Fold 5 | Ep 38] AUC: 0.944 | Acc: 0.802 | Sen: 0.897 | Spe: 0.754
+[Run 5 | Fold 5 | Ep 39] AUC: 0.929 | Acc: 0.837 | Sen: 0.828 | Spe: 0.842
+[Run 5 | Fold 5 | Ep 40] AUC: 0.915 | Acc: 0.837 | Sen: 0.897 | Spe: 0.807
+[Run 5 | Fold 5 | Ep 41] AUC: 0.939 | Acc: 0.837 | Sen: 0.931 | Spe: 0.789
+[Run 5 | Fold 5 | Ep 42] AUC: 0.920 | Acc: 0.849 | Sen: 0.862 | Spe: 0.842
+[Run 5 | Fold 5 | Ep 43] AUC: 0.931 | Acc: 0.872 | Sen: 0.897 | Spe: 0.860
+[Run 5 | Fold 5 | Ep 44] AUC: 0.927 | Acc: 0.849 | Sen: 0.828 | Spe: 0.860
+[Run 5 | Fold 5 | Ep 45] AUC: 0.924 | Acc: 0.837 | Sen: 0.793 | Spe: 0.860
+[Run 5 | Fold 5 | Ep 46] AUC: 0.917 | Acc: 0.826 | Sen: 0.759 | Spe: 0.860
+[Run 5 | Fold 5 | Ep 47] AUC: 0.915 | Acc: 0.814 | Sen: 0.828 | Spe: 0.807
+早停于 Epoch 47 (Best: Epoch 32, AUC=0.953)
