@@ -1,0 +1,44 @@
+# configs/default.yaml
+# 该文件为标准GMU的配置文件
+# ═══ 实验标识 ═══
+run:
+  name: gmu_standard            # 标准GMU
+  tag: null                # 同一实验重跑时填，如 run_6 → outputs/experiments/gmu_standard/run_6/
+  seed: 42
+  gpu: 0                   # 物理GPU号 → CUDA_VISIBLE_DEVICES；CLI --gpu 可覆盖
+
+# ═══ 数据（相对路径一律锚定仓库根，与运行时 cwd 无关）═══
+data:
+  excel_path: data/raw/tabular_data.xlsx
+  pkl_path: data/interim/clinical.pkl      # 、
+  image_root: data/raw/image
+  resnet_weight: weights/resnet18.pth
+
+# ═══ 模型结构 ═══
+model:
+  arch: gmu_standard
+  num_cont: 8              #
+  clin_out: 16
+  dropout: 0.4
+  use_aux_task: true       # 
+
+# ═══ 训练 ═══
+training:
+  img_size: 224
+  batch_size: 8            # 医学影像显存占用大
+  epochs: 100
+  n_splits: 5              # ← 吸收测试 config 的 num_folds
+  lr_backbone: 1.0e-5      # 
+  lr_head: 1.0e-3
+  weight_decay: 1.0e-4
+  aux_weight: 0.3
+  pos_weight: 3            # III型(正类)加权
+  patience: 15
+
+# ═══ 评估 / 部署 ═══
+eval:
+  threshold: 0.25          # 统一部署阈值；训练期 best_t 也读这一处
+
+# ═══ 输出根（run.name/tag 展开由 load_config 完成，不手写具体目录）═══
+paths:
+  experiment_root: outputs/experiments

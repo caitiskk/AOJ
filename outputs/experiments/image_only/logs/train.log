@@ -1,0 +1,163 @@
+2026-10-11 22:38:44 | INFO    | __main__ | ============================================================
+2026-10-11 22:38:44 | INFO    | __main__ | MedicalGMU (Embedding Clinical + X-ray) Training
+2026-10-11 22:38:44 | INFO    | __main__ | config  : configs/Resnet18.yaml
+2026-10-11 22:38:44 | INFO    | __main__ | run_dir : /media/sdc1/25yhlu/proj/fullcode/AOJ/outputs/experiments/image_only
+2026-10-11 22:38:44 | INFO    | __main__ | device  : cuda:0 | CUDA_VISIBLE_DEVICES=0
+2026-10-11 22:38:44 | INFO    | __main__ | ============================================================
+2026-10-11 22:38:44 | INFO    | chiari.engine.trainer | 总病人: 215
+2026-10-11 22:38:44 | INFO    | chiari.engine.trainer | Fold 1 | Train: 172, Val: 43
+2026-10-11 22:38:56 | INFO    | chiari.engine.trainer | Fold 1 Epoch 000 | loss 0.5228 | AUC 0.830 | Acc 0.570 | Sen 0.935 | Spe 0.364 | Thresh 0.25
+2026-10-11 22:39:06 | INFO    | chiari.engine.trainer | Fold 1 Epoch 001 | loss 0.3981 | AUC 0.873 | Acc 0.663 | Sen 0.903 | Spe 0.527 | Thresh 0.25
+2026-10-11 22:39:16 | INFO    | chiari.engine.trainer | Fold 1 Epoch 002 | loss 0.3211 | AUC 0.900 | Acc 0.721 | Sen 0.871 | Spe 0.636 | Thresh 0.25
+2026-10-11 22:39:27 | INFO    | chiari.engine.trainer | Fold 1 Epoch 003 | loss 0.2422 | AUC 0.916 | Acc 0.779 | Sen 0.903 | Spe 0.709 | Thresh 0.25
+2026-10-11 22:39:37 | INFO    | chiari.engine.trainer | Fold 1 Epoch 004 | loss 0.2101 | AUC 0.927 | Acc 0.779 | Sen 0.839 | Spe 0.745 | Thresh 0.25
+2026-10-11 22:39:47 | INFO    | chiari.engine.trainer | Fold 1 Epoch 005 | loss 0.1769 | AUC 0.900 | Acc 0.802 | Sen 0.839 | Spe 0.782 | Thresh 0.25
+2026-10-11 22:39:57 | INFO    | chiari.engine.trainer | Fold 1 Epoch 006 | loss 0.1433 | AUC 0.921 | Acc 0.826 | Sen 0.871 | Spe 0.800 | Thresh 0.25
+2026-10-11 22:40:07 | INFO    | chiari.engine.trainer | Fold 1 Epoch 007 | loss 0.0997 | AUC 0.907 | Acc 0.826 | Sen 0.839 | Spe 0.818 | Thresh 0.25
+2026-10-11 22:40:18 | INFO    | chiari.engine.trainer | Fold 1 Epoch 008 | loss 0.0996 | AUC 0.941 | Acc 0.826 | Sen 0.903 | Spe 0.782 | Thresh 0.25
+2026-10-11 22:40:28 | INFO    | chiari.engine.trainer | Fold 1 Epoch 009 | loss 0.0841 | AUC 0.925 | Acc 0.802 | Sen 0.839 | Spe 0.782 | Thresh 0.25
+2026-10-11 22:40:38 | INFO    | chiari.engine.trainer | Fold 1 Epoch 010 | loss 0.0669 | AUC 0.920 | Acc 0.814 | Sen 0.839 | Spe 0.800 | Thresh 0.25
+2026-10-11 22:40:48 | INFO    | chiari.engine.trainer | Fold 1 Epoch 011 | loss 0.0638 | AUC 0.904 | Acc 0.826 | Sen 0.839 | Spe 0.818 | Thresh 0.25
+2026-10-11 22:40:59 | INFO    | chiari.engine.trainer | Fold 1 Epoch 012 | loss 0.0510 | AUC 0.922 | Acc 0.802 | Sen 0.903 | Spe 0.745 | Thresh 0.25
+2026-10-11 22:41:09 | INFO    | chiari.engine.trainer | Fold 1 Epoch 013 | loss 0.0439 | AUC 0.914 | Acc 0.791 | Sen 0.871 | Spe 0.745 | Thresh 0.25
+2026-10-11 22:41:19 | INFO    | chiari.engine.trainer | Fold 1 Epoch 014 | loss 0.0371 | AUC 0.908 | Acc 0.791 | Sen 0.871 | Spe 0.745 | Thresh 0.25
+2026-10-11 22:41:29 | INFO    | chiari.engine.trainer | Fold 1 Epoch 015 | loss 0.0503 | AUC 0.920 | Acc 0.849 | Sen 0.871 | Spe 0.836 | Thresh 0.25
+2026-10-11 22:41:40 | INFO    | chiari.engine.trainer | Fold 1 Epoch 016 | loss 0.0254 | AUC 0.910 | Acc 0.814 | Sen 0.871 | Spe 0.782 | Thresh 0.25
+2026-10-11 22:41:50 | INFO    | chiari.engine.trainer | Fold 1 Epoch 017 | loss 0.0345 | AUC 0.926 | Acc 0.849 | Sen 0.871 | Spe 0.836 | Thresh 0.25
+2026-10-11 22:42:00 | INFO    | chiari.engine.trainer | Fold 1 Epoch 018 | loss 0.0220 | AUC 0.924 | Acc 0.814 | Sen 0.903 | Spe 0.764 | Thresh 0.25
+2026-10-11 22:42:10 | INFO    | chiari.engine.trainer | Fold 1 Epoch 019 | loss 0.0199 | AUC 0.912 | Acc 0.849 | Sen 0.871 | Spe 0.836 | Thresh 0.25
+2026-10-11 22:42:21 | INFO    | chiari.engine.trainer | Fold 1 Epoch 020 | loss 0.0159 | AUC 0.907 | Acc 0.849 | Sen 0.839 | Spe 0.855 | Thresh 0.25
+2026-10-11 22:42:31 | INFO    | chiari.engine.trainer | Fold 1 Epoch 021 | loss 0.0151 | AUC 0.911 | Acc 0.826 | Sen 0.871 | Spe 0.800 | Thresh 0.25
+2026-10-11 22:42:41 | INFO    | chiari.engine.trainer | Fold 1 Epoch 022 | loss 0.0215 | AUC 0.928 | Acc 0.814 | Sen 0.871 | Spe 0.782 | Thresh 0.25
+2026-10-11 22:42:51 | INFO    | chiari.engine.trainer | Fold 1 Epoch 023 | loss 0.0177 | AUC 0.921 | Acc 0.826 | Sen 0.903 | Spe 0.782 | Thresh 0.25
+2026-10-11 22:42:51 | INFO    | chiari.engine.trainer | 早停于 Epoch 23 (Best: 8, AUC=0.941)
+2026-10-11 22:42:52 | INFO    | chiari.engine.trainer | Fold 2 | Train: 172, Val: 43
+2026-10-11 22:43:03 | INFO    | chiari.engine.trainer | Fold 2 Epoch 000 | loss 0.5086 | AUC 0.894 | Acc 0.674 | Sen 0.955 | Spe 0.578 | Thresh 0.25
+2026-10-11 22:43:12 | INFO    | chiari.engine.trainer | Fold 2 Epoch 001 | loss 0.3601 | AUC 0.928 | Acc 0.721 | Sen 0.955 | Spe 0.641 | Thresh 0.25
+2026-10-11 22:43:22 | INFO    | chiari.engine.trainer | Fold 2 Epoch 002 | loss 0.2961 | AUC 0.933 | Acc 0.779 | Sen 0.955 | Spe 0.719 | Thresh 0.25
+2026-10-11 22:43:32 | INFO    | chiari.engine.trainer | Fold 2 Epoch 003 | loss 0.2296 | AUC 0.938 | Acc 0.744 | Sen 0.909 | Spe 0.688 | Thresh 0.25
+2026-10-11 22:43:42 | INFO    | chiari.engine.trainer | Fold 2 Epoch 004 | loss 0.1917 | AUC 0.934 | Acc 0.698 | Sen 0.909 | Spe 0.625 | Thresh 0.25
+2026-10-11 22:43:52 | INFO    | chiari.engine.trainer | Fold 2 Epoch 005 | loss 0.1515 | AUC 0.933 | Acc 0.814 | Sen 0.909 | Spe 0.781 | Thresh 0.25
+2026-10-11 22:44:02 | INFO    | chiari.engine.trainer | Fold 2 Epoch 006 | loss 0.1185 | AUC 0.955 | Acc 0.826 | Sen 0.909 | Spe 0.797 | Thresh 0.25
+2026-10-11 22:44:12 | INFO    | chiari.engine.trainer | Fold 2 Epoch 007 | loss 0.0978 | AUC 0.935 | Acc 0.849 | Sen 0.909 | Spe 0.828 | Thresh 0.25
+2026-10-11 22:44:22 | INFO    | chiari.engine.trainer | Fold 2 Epoch 008 | loss 0.1023 | AUC 0.926 | Acc 0.849 | Sen 0.864 | Spe 0.844 | Thresh 0.25
+2026-10-11 22:44:32 | INFO    | chiari.engine.trainer | Fold 2 Epoch 009 | loss 0.0691 | AUC 0.933 | Acc 0.802 | Sen 0.909 | Spe 0.766 | Thresh 0.25
+2026-10-11 22:44:43 | INFO    | chiari.engine.trainer | Fold 2 Epoch 010 | loss 0.0629 | AUC 0.944 | Acc 0.791 | Sen 0.909 | Spe 0.750 | Thresh 0.25
+2026-10-11 22:44:53 | INFO    | chiari.engine.trainer | Fold 2 Epoch 011 | loss 0.0508 | AUC 0.940 | Acc 0.837 | Sen 0.909 | Spe 0.812 | Thresh 0.25
+2026-10-11 22:45:03 | INFO    | chiari.engine.trainer | Fold 2 Epoch 012 | loss 0.0655 | AUC 0.938 | Acc 0.826 | Sen 0.909 | Spe 0.797 | Thresh 0.25
+2026-10-11 22:45:12 | INFO    | chiari.engine.trainer | Fold 2 Epoch 013 | loss 0.0389 | AUC 0.928 | Acc 0.849 | Sen 0.909 | Spe 0.828 | Thresh 0.25
+2026-10-11 22:45:23 | INFO    | chiari.engine.trainer | Fold 2 Epoch 014 | loss 0.0477 | AUC 0.935 | Acc 0.837 | Sen 0.909 | Spe 0.812 | Thresh 0.25
+2026-10-11 22:45:33 | INFO    | chiari.engine.trainer | Fold 2 Epoch 015 | loss 0.0415 | AUC 0.934 | Acc 0.814 | Sen 0.909 | Spe 0.781 | Thresh 0.25
+2026-10-11 22:45:42 | INFO    | chiari.engine.trainer | Fold 2 Epoch 016 | loss 0.0359 | AUC 0.950 | Acc 0.814 | Sen 0.909 | Spe 0.781 | Thresh 0.25
+2026-10-11 22:45:52 | INFO    | chiari.engine.trainer | Fold 2 Epoch 017 | loss 0.0348 | AUC 0.938 | Acc 0.826 | Sen 0.864 | Spe 0.812 | Thresh 0.25
+2026-10-11 22:46:01 | INFO    | chiari.engine.trainer | Fold 2 Epoch 018 | loss 0.0394 | AUC 0.942 | Acc 0.779 | Sen 0.955 | Spe 0.719 | Thresh 0.25
+2026-10-11 22:46:11 | INFO    | chiari.engine.trainer | Fold 2 Epoch 019 | loss 0.0291 | AUC 0.949 | Acc 0.791 | Sen 0.909 | Spe 0.750 | Thresh 0.25
+2026-10-11 22:46:21 | INFO    | chiari.engine.trainer | Fold 2 Epoch 020 | loss 0.0356 | AUC 0.935 | Acc 0.826 | Sen 0.864 | Spe 0.812 | Thresh 0.25
+2026-10-11 22:46:31 | INFO    | chiari.engine.trainer | Fold 2 Epoch 021 | loss 0.0376 | AUC 0.933 | Acc 0.779 | Sen 0.864 | Spe 0.750 | Thresh 0.25
+2026-10-11 22:46:31 | INFO    | chiari.engine.trainer | 早停于 Epoch 21 (Best: 6, AUC=0.955)
+2026-10-11 22:46:33 | INFO    | chiari.engine.trainer | Fold 3 | Train: 172, Val: 43
+2026-10-11 22:46:43 | INFO    | chiari.engine.trainer | Fold 3 Epoch 000 | loss 0.5223 | AUC 0.886 | Acc 0.570 | Sen 0.967 | Spe 0.357 | Thresh 0.25
+2026-10-11 22:46:52 | INFO    | chiari.engine.trainer | Fold 3 Epoch 001 | loss 0.3808 | AUC 0.923 | Acc 0.663 | Sen 0.967 | Spe 0.500 | Thresh 0.25
+2026-10-11 22:47:02 | INFO    | chiari.engine.trainer | Fold 3 Epoch 002 | loss 0.3052 | AUC 0.914 | Acc 0.651 | Sen 0.933 | Spe 0.500 | Thresh 0.25
+2026-10-11 22:47:12 | INFO    | chiari.engine.trainer | Fold 3 Epoch 003 | loss 0.2352 | AUC 0.913 | Acc 0.814 | Sen 0.867 | Spe 0.786 | Thresh 0.25
+2026-10-11 22:47:22 | INFO    | chiari.engine.trainer | Fold 3 Epoch 004 | loss 0.1923 | AUC 0.946 | Acc 0.779 | Sen 0.900 | Spe 0.714 | Thresh 0.25
+2026-10-11 22:47:32 | INFO    | chiari.engine.trainer | Fold 3 Epoch 005 | loss 0.1422 | AUC 0.926 | Acc 0.802 | Sen 0.900 | Spe 0.750 | Thresh 0.25
+2026-10-11 22:47:43 | INFO    | chiari.engine.trainer | Fold 3 Epoch 006 | loss 0.1211 | AUC 0.933 | Acc 0.791 | Sen 0.900 | Spe 0.732 | Thresh 0.25
+2026-10-11 22:47:53 | INFO    | chiari.engine.trainer | Fold 3 Epoch 007 | loss 0.1014 | AUC 0.919 | Acc 0.779 | Sen 0.867 | Spe 0.732 | Thresh 0.25
+2026-10-11 22:48:03 | INFO    | chiari.engine.trainer | Fold 3 Epoch 008 | loss 0.0841 | AUC 0.927 | Acc 0.814 | Sen 0.867 | Spe 0.786 | Thresh 0.25
+2026-10-11 22:48:12 | INFO    | chiari.engine.trainer | Fold 3 Epoch 009 | loss 0.0694 | AUC 0.927 | Acc 0.767 | Sen 0.900 | Spe 0.696 | Thresh 0.25
+2026-10-11 22:48:22 | INFO    | chiari.engine.trainer | Fold 3 Epoch 010 | loss 0.0640 | AUC 0.926 | Acc 0.814 | Sen 0.867 | Spe 0.786 | Thresh 0.25
+2026-10-11 22:48:32 | INFO    | chiari.engine.trainer | Fold 3 Epoch 011 | loss 0.0569 | AUC 0.919 | Acc 0.814 | Sen 0.867 | Spe 0.786 | Thresh 0.25
+2026-10-11 22:48:42 | INFO    | chiari.engine.trainer | Fold 3 Epoch 012 | loss 0.0451 | AUC 0.931 | Acc 0.802 | Sen 0.867 | Spe 0.768 | Thresh 0.25
+2026-10-11 22:48:52 | INFO    | chiari.engine.trainer | Fold 3 Epoch 013 | loss 0.0418 | AUC 0.928 | Acc 0.779 | Sen 0.867 | Spe 0.732 | Thresh 0.25
+2026-10-11 22:49:02 | INFO    | chiari.engine.trainer | Fold 3 Epoch 014 | loss 0.0420 | AUC 0.908 | Acc 0.791 | Sen 0.867 | Spe 0.750 | Thresh 0.25
+2026-10-11 22:49:12 | INFO    | chiari.engine.trainer | Fold 3 Epoch 015 | loss 0.0381 | AUC 0.921 | Acc 0.826 | Sen 0.867 | Spe 0.804 | Thresh 0.25
+2026-10-11 22:49:22 | INFO    | chiari.engine.trainer | Fold 3 Epoch 016 | loss 0.0300 | AUC 0.916 | Acc 0.802 | Sen 0.867 | Spe 0.768 | Thresh 0.25
+2026-10-11 22:49:32 | INFO    | chiari.engine.trainer | Fold 3 Epoch 017 | loss 0.0227 | AUC 0.926 | Acc 0.767 | Sen 0.933 | Spe 0.679 | Thresh 0.25
+2026-10-11 22:49:41 | INFO    | chiari.engine.trainer | Fold 3 Epoch 018 | loss 0.0269 | AUC 0.913 | Acc 0.814 | Sen 0.867 | Spe 0.786 | Thresh 0.25
+2026-10-11 22:49:51 | INFO    | chiari.engine.trainer | Fold 3 Epoch 019 | loss 0.0257 | AUC 0.936 | Acc 0.779 | Sen 0.867 | Spe 0.732 | Thresh 0.25
+2026-10-11 22:49:51 | INFO    | chiari.engine.trainer | 早停于 Epoch 19 (Best: 4, AUC=0.946)
+2026-10-11 22:49:52 | INFO    | chiari.engine.trainer | Fold 4 | Train: 172, Val: 43
+2026-10-11 22:50:02 | INFO    | chiari.engine.trainer | Fold 4 Epoch 000 | loss 0.5284 | AUC 0.766 | Acc 0.477 | Sen 0.913 | Spe 0.317 | Thresh 0.25
+2026-10-11 22:50:12 | INFO    | chiari.engine.trainer | Fold 4 Epoch 001 | loss 0.3940 | AUC 0.828 | Acc 0.640 | Sen 0.826 | Spe 0.571 | Thresh 0.25
+2026-10-11 22:50:22 | INFO    | chiari.engine.trainer | Fold 4 Epoch 002 | loss 0.3323 | AUC 0.905 | Acc 0.814 | Sen 0.826 | Spe 0.810 | Thresh 0.25
+2026-10-11 22:50:31 | INFO    | chiari.engine.trainer | Fold 4 Epoch 003 | loss 0.2428 | AUC 0.866 | Acc 0.767 | Sen 0.826 | Spe 0.746 | Thresh 0.25
+2026-10-11 22:50:40 | INFO    | chiari.engine.trainer | Fold 4 Epoch 004 | loss 0.1907 | AUC 0.890 | Acc 0.849 | Sen 0.783 | Spe 0.873 | Thresh 0.25
+2026-10-11 22:50:50 | INFO    | chiari.engine.trainer | Fold 4 Epoch 005 | loss 0.1581 | AUC 0.896 | Acc 0.849 | Sen 0.739 | Spe 0.889 | Thresh 0.25
+2026-10-11 22:50:59 | INFO    | chiari.engine.trainer | Fold 4 Epoch 006 | loss 0.1149 | AUC 0.862 | Acc 0.837 | Sen 0.739 | Spe 0.873 | Thresh 0.25
+2026-10-11 22:51:09 | INFO    | chiari.engine.trainer | Fold 4 Epoch 007 | loss 0.0997 | AUC 0.904 | Acc 0.860 | Sen 0.739 | Spe 0.905 | Thresh 0.25
+2026-10-11 22:51:19 | INFO    | chiari.engine.trainer | Fold 4 Epoch 008 | loss 0.0863 | AUC 0.878 | Acc 0.826 | Sen 0.783 | Spe 0.841 | Thresh 0.25
+2026-10-11 22:51:28 | INFO    | chiari.engine.trainer | Fold 4 Epoch 009 | loss 0.0883 | AUC 0.908 | Acc 0.837 | Sen 0.826 | Spe 0.841 | Thresh 0.25
+2026-10-11 22:51:38 | INFO    | chiari.engine.trainer | Fold 4 Epoch 010 | loss 0.0584 | AUC 0.897 | Acc 0.872 | Sen 0.739 | Spe 0.921 | Thresh 0.25
+2026-10-11 22:51:48 | INFO    | chiari.engine.trainer | Fold 4 Epoch 011 | loss 0.0626 | AUC 0.904 | Acc 0.837 | Sen 0.739 | Spe 0.873 | Thresh 0.25
+2026-10-11 22:51:57 | INFO    | chiari.engine.trainer | Fold 4 Epoch 012 | loss 0.0698 | AUC 0.901 | Acc 0.837 | Sen 0.783 | Spe 0.857 | Thresh 0.25
+2026-10-11 22:52:06 | INFO    | chiari.engine.trainer | Fold 4 Epoch 013 | loss 0.0417 | AUC 0.900 | Acc 0.860 | Sen 0.739 | Spe 0.905 | Thresh 0.25
+2026-10-11 22:52:15 | INFO    | chiari.engine.trainer | Fold 4 Epoch 014 | loss 0.0433 | AUC 0.926 | Acc 0.860 | Sen 0.739 | Spe 0.905 | Thresh 0.25
+2026-10-11 22:52:25 | INFO    | chiari.engine.trainer | Fold 4 Epoch 015 | loss 0.0450 | AUC 0.909 | Acc 0.814 | Sen 0.739 | Spe 0.841 | Thresh 0.25
+2026-10-11 22:52:34 | INFO    | chiari.engine.trainer | Fold 4 Epoch 016 | loss 0.0416 | AUC 0.926 | Acc 0.860 | Sen 0.783 | Spe 0.889 | Thresh 0.25
+2026-10-11 22:52:44 | INFO    | chiari.engine.trainer | Fold 4 Epoch 017 | loss 0.0442 | AUC 0.896 | Acc 0.849 | Sen 0.739 | Spe 0.889 | Thresh 0.25
+2026-10-11 22:52:54 | INFO    | chiari.engine.trainer | Fold 4 Epoch 018 | loss 0.0417 | AUC 0.883 | Acc 0.860 | Sen 0.783 | Spe 0.889 | Thresh 0.25
+2026-10-11 22:53:04 | INFO    | chiari.engine.trainer | Fold 4 Epoch 019 | loss 0.0351 | AUC 0.904 | Acc 0.849 | Sen 0.826 | Spe 0.857 | Thresh 0.25
+2026-10-11 22:53:14 | INFO    | chiari.engine.trainer | Fold 4 Epoch 020 | loss 0.0273 | AUC 0.877 | Acc 0.849 | Sen 0.739 | Spe 0.889 | Thresh 0.25
+2026-10-11 22:53:24 | INFO    | chiari.engine.trainer | Fold 4 Epoch 021 | loss 0.0198 | AUC 0.899 | Acc 0.895 | Sen 0.783 | Spe 0.937 | Thresh 0.25
+2026-10-11 22:53:33 | INFO    | chiari.engine.trainer | Fold 4 Epoch 022 | loss 0.0294 | AUC 0.925 | Acc 0.860 | Sen 0.870 | Spe 0.857 | Thresh 0.25
+2026-10-11 22:53:43 | INFO    | chiari.engine.trainer | Fold 4 Epoch 023 | loss 0.0337 | AUC 0.903 | Acc 0.837 | Sen 0.739 | Spe 0.873 | Thresh 0.25
+2026-10-11 22:53:53 | INFO    | chiari.engine.trainer | Fold 4 Epoch 024 | loss 0.0132 | AUC 0.869 | Acc 0.837 | Sen 0.739 | Spe 0.873 | Thresh 0.25
+2026-10-11 22:54:03 | INFO    | chiari.engine.trainer | Fold 4 Epoch 025 | loss 0.0165 | AUC 0.867 | Acc 0.849 | Sen 0.739 | Spe 0.889 | Thresh 0.25
+2026-10-11 22:54:13 | INFO    | chiari.engine.trainer | Fold 4 Epoch 026 | loss 0.0231 | AUC 0.897 | Acc 0.849 | Sen 0.739 | Spe 0.889 | Thresh 0.25
+2026-10-11 22:54:23 | INFO    | chiari.engine.trainer | Fold 4 Epoch 027 | loss 0.0144 | AUC 0.894 | Acc 0.860 | Sen 0.739 | Spe 0.905 | Thresh 0.25
+2026-10-11 22:54:33 | INFO    | chiari.engine.trainer | Fold 4 Epoch 028 | loss 0.0192 | AUC 0.923 | Acc 0.884 | Sen 0.739 | Spe 0.937 | Thresh 0.25
+2026-10-11 22:54:42 | INFO    | chiari.engine.trainer | Fold 4 Epoch 029 | loss 0.0041 | AUC 0.912 | Acc 0.860 | Sen 0.783 | Spe 0.889 | Thresh 0.25
+2026-10-11 22:54:42 | INFO    | chiari.engine.trainer | 早停于 Epoch 29 (Best: 14, AUC=0.926)
+2026-10-11 22:54:44 | INFO    | chiari.engine.trainer | Fold 5 | Train: 172, Val: 43
+2026-10-11 22:54:54 | INFO    | chiari.engine.trainer | Fold 5 Epoch 000 | loss 0.5103 | AUC 0.891 | Acc 0.686 | Sen 0.931 | Spe 0.561 | Thresh 0.25
+2026-10-11 22:55:04 | INFO    | chiari.engine.trainer | Fold 5 Epoch 001 | loss 0.3790 | AUC 0.896 | Acc 0.744 | Sen 0.897 | Spe 0.667 | Thresh 0.25
+2026-10-11 22:55:15 | INFO    | chiari.engine.trainer | Fold 5 Epoch 002 | loss 0.2881 | AUC 0.914 | Acc 0.756 | Sen 0.897 | Spe 0.684 | Thresh 0.25
+2026-10-11 22:55:23 | INFO    | chiari.engine.trainer | Fold 5 Epoch 003 | loss 0.2326 | AUC 0.903 | Acc 0.837 | Sen 0.793 | Spe 0.860 | Thresh 0.25
+2026-10-11 22:55:34 | INFO    | chiari.engine.trainer | Fold 5 Epoch 004 | loss 0.1947 | AUC 0.910 | Acc 0.837 | Sen 0.793 | Spe 0.860 | Thresh 0.25
+2026-10-11 22:55:44 | INFO    | chiari.engine.trainer | Fold 5 Epoch 005 | loss 0.1617 | AUC 0.923 | Acc 0.791 | Sen 0.897 | Spe 0.737 | Thresh 0.25
+2026-10-11 22:55:54 | INFO    | chiari.engine.trainer | Fold 5 Epoch 006 | loss 0.1255 | AUC 0.914 | Acc 0.826 | Sen 0.828 | Spe 0.825 | Thresh 0.25
+2026-10-11 22:56:04 | INFO    | chiari.engine.trainer | Fold 5 Epoch 007 | loss 0.1355 | AUC 0.934 | Acc 0.802 | Sen 0.862 | Spe 0.772 | Thresh 0.25
+2026-10-11 22:56:14 | INFO    | chiari.engine.trainer | Fold 5 Epoch 008 | loss 0.0822 | AUC 0.942 | Acc 0.826 | Sen 0.897 | Spe 0.789 | Thresh 0.25
+2026-10-11 22:56:25 | INFO    | chiari.engine.trainer | Fold 5 Epoch 009 | loss 0.0627 | AUC 0.941 | Acc 0.849 | Sen 0.828 | Spe 0.860 | Thresh 0.25
+2026-10-11 22:56:34 | INFO    | chiari.engine.trainer | Fold 5 Epoch 010 | loss 0.0735 | AUC 0.943 | Acc 0.860 | Sen 0.897 | Spe 0.842 | Thresh 0.25
+2026-10-11 22:56:45 | INFO    | chiari.engine.trainer | Fold 5 Epoch 011 | loss 0.0571 | AUC 0.930 | Acc 0.849 | Sen 0.828 | Spe 0.860 | Thresh 0.25
+2026-10-11 22:56:55 | INFO    | chiari.engine.trainer | Fold 5 Epoch 012 | loss 0.0465 | AUC 0.933 | Acc 0.814 | Sen 0.897 | Spe 0.772 | Thresh 0.25
+2026-10-11 22:57:06 | INFO    | chiari.engine.trainer | Fold 5 Epoch 013 | loss 0.0430 | AUC 0.936 | Acc 0.849 | Sen 0.828 | Spe 0.860 | Thresh 0.25
+2026-10-11 22:57:16 | INFO    | chiari.engine.trainer | Fold 5 Epoch 014 | loss 0.0477 | AUC 0.947 | Acc 0.860 | Sen 0.897 | Spe 0.842 | Thresh 0.25
+2026-10-11 22:57:26 | INFO    | chiari.engine.trainer | Fold 5 Epoch 015 | loss 0.0326 | AUC 0.923 | Acc 0.837 | Sen 0.828 | Spe 0.842 | Thresh 0.25
+2026-10-11 22:57:36 | INFO    | chiari.engine.trainer | Fold 5 Epoch 016 | loss 0.0328 | AUC 0.942 | Acc 0.791 | Sen 0.966 | Spe 0.702 | Thresh 0.25
+2026-10-11 22:57:46 | INFO    | chiari.engine.trainer | Fold 5 Epoch 017 | loss 0.0217 | AUC 0.922 | Acc 0.826 | Sen 0.828 | Spe 0.825 | Thresh 0.25
+2026-10-11 22:57:56 | INFO    | chiari.engine.trainer | Fold 5 Epoch 018 | loss 0.0457 | AUC 0.930 | Acc 0.837 | Sen 0.828 | Spe 0.842 | Thresh 0.25
+2026-10-11 22:58:06 | INFO    | chiari.engine.trainer | Fold 5 Epoch 019 | loss 0.0221 | AUC 0.930 | Acc 0.849 | Sen 0.862 | Spe 0.842 | Thresh 0.25
+2026-10-11 22:58:17 | INFO    | chiari.engine.trainer | Fold 5 Epoch 020 | loss 0.0211 | AUC 0.940 | Acc 0.826 | Sen 0.828 | Spe 0.825 | Thresh 0.25
+2026-10-11 22:58:26 | INFO    | chiari.engine.trainer | Fold 5 Epoch 021 | loss 0.0154 | AUC 0.927 | Acc 0.826 | Sen 0.793 | Spe 0.842 | Thresh 0.25
+2026-10-11 22:58:36 | INFO    | chiari.engine.trainer | Fold 5 Epoch 022 | loss 0.0204 | AUC 0.919 | Acc 0.802 | Sen 0.828 | Spe 0.789 | Thresh 0.25
+2026-10-11 22:58:47 | INFO    | chiari.engine.trainer | Fold 5 Epoch 023 | loss 0.0229 | AUC 0.941 | Acc 0.849 | Sen 0.862 | Spe 0.842 | Thresh 0.25
+2026-10-11 22:58:56 | INFO    | chiari.engine.trainer | Fold 5 Epoch 024 | loss 0.0128 | AUC 0.938 | Acc 0.814 | Sen 0.828 | Spe 0.807 | Thresh 0.25
+2026-10-11 22:59:06 | INFO    | chiari.engine.trainer | Fold 5 Epoch 025 | loss 0.0165 | AUC 0.924 | Acc 0.837 | Sen 0.862 | Spe 0.825 | Thresh 0.25
+2026-10-11 22:59:17 | INFO    | chiari.engine.trainer | Fold 5 Epoch 026 | loss 0.0196 | AUC 0.955 | Acc 0.826 | Sen 0.966 | Spe 0.754 | Thresh 0.25
+2026-10-11 22:59:27 | INFO    | chiari.engine.trainer | Fold 5 Epoch 027 | loss 0.0209 | AUC 0.926 | Acc 0.860 | Sen 0.828 | Spe 0.877 | Thresh 0.25
+2026-10-11 22:59:36 | INFO    | chiari.engine.trainer | Fold 5 Epoch 028 | loss 0.0094 | AUC 0.946 | Acc 0.872 | Sen 0.862 | Spe 0.877 | Thresh 0.25
+2026-10-11 22:59:46 | INFO    | chiari.engine.trainer | Fold 5 Epoch 029 | loss 0.0139 | AUC 0.931 | Acc 0.837 | Sen 0.862 | Spe 0.825 | Thresh 0.25
+2026-10-11 22:59:56 | INFO    | chiari.engine.trainer | Fold 5 Epoch 030 | loss 0.0067 | AUC 0.932 | Acc 0.860 | Sen 0.862 | Spe 0.860 | Thresh 0.25
+2026-10-11 23:00:06 | INFO    | chiari.engine.trainer | Fold 5 Epoch 031 | loss 0.0051 | AUC 0.932 | Acc 0.860 | Sen 0.828 | Spe 0.877 | Thresh 0.25
+2026-10-11 23:00:16 | INFO    | chiari.engine.trainer | Fold 5 Epoch 032 | loss 0.0065 | AUC 0.922 | Acc 0.872 | Sen 0.862 | Spe 0.877 | Thresh 0.25
+2026-10-11 23:00:26 | INFO    | chiari.engine.trainer | Fold 5 Epoch 033 | loss 0.0058 | AUC 0.940 | Acc 0.872 | Sen 0.862 | Spe 0.877 | Thresh 0.25
+2026-10-11 23:00:36 | INFO    | chiari.engine.trainer | Fold 5 Epoch 034 | loss 0.0062 | AUC 0.931 | Acc 0.849 | Sen 0.897 | Spe 0.825 | Thresh 0.25
+2026-10-11 23:00:46 | INFO    | chiari.engine.trainer | Fold 5 Epoch 035 | loss 0.0071 | AUC 0.927 | Acc 0.872 | Sen 0.828 | Spe 0.895 | Thresh 0.25
+2026-10-11 23:00:56 | INFO    | chiari.engine.trainer | Fold 5 Epoch 036 | loss 0.0079 | AUC 0.936 | Acc 0.872 | Sen 0.862 | Spe 0.877 | Thresh 0.25
+2026-10-11 23:01:06 | INFO    | chiari.engine.trainer | Fold 5 Epoch 037 | loss 0.0027 | AUC 0.946 | Acc 0.837 | Sen 0.897 | Spe 0.807 | Thresh 0.25
+2026-10-11 23:01:16 | INFO    | chiari.engine.trainer | Fold 5 Epoch 038 | loss 0.0056 | AUC 0.941 | Acc 0.872 | Sen 0.862 | Spe 0.877 | Thresh 0.25
+2026-10-11 23:01:26 | INFO    | chiari.engine.trainer | Fold 5 Epoch 039 | loss 0.0039 | AUC 0.935 | Acc 0.872 | Sen 0.862 | Spe 0.877 | Thresh 0.25
+2026-10-11 23:01:36 | INFO    | chiari.engine.trainer | Fold 5 Epoch 040 | loss 0.0053 | AUC 0.923 | Acc 0.872 | Sen 0.828 | Spe 0.895 | Thresh 0.25
+2026-10-11 23:01:46 | INFO    | chiari.engine.trainer | Fold 5 Epoch 041 | loss 0.0043 | AUC 0.936 | Acc 0.826 | Sen 0.897 | Spe 0.789 | Thresh 0.25
+2026-10-11 23:01:46 | INFO    | chiari.engine.trainer | 早停于 Epoch 41 (Best: 26, AUC=0.955)
+2026-10-11 23:01:48 | INFO    | __main__ | 训练完成，共 5 折
+2026-10-11 23:01:48 | INFO    | __main__ |   Fold 1 | AUC 0.941 | Acc 0.826 | Sen 0.903 | Spe 0.782
+2026-10-11 23:01:48 | INFO    | __main__ |   Fold 2 | AUC 0.955 | Acc 0.826 | Sen 0.909 | Spe 0.797
+2026-10-11 23:01:48 | INFO    | __main__ |   Fold 3 | AUC 0.946 | Acc 0.779 | Sen 0.900 | Spe 0.714
+2026-10-11 23:01:48 | INFO    | __main__ |   Fold 4 | AUC 0.926 | Acc 0.860 | Sen 0.739 | Spe 0.905
+2026-10-11 23:01:48 | INFO    | __main__ |   Fold 5 | AUC 0.955 | Acc 0.826 | Sen 0.966 | Spe 0.754
+2026-10-11 23:01:48 | INFO    | __main__ | 下一步: python scripts/evaluate.py  --config configs/Resnet18.yaml
+2026-10-11 23:01:48 | INFO    | __main__ |      或: python scripts/interpret.py --config configs/Resnet18.yaml
